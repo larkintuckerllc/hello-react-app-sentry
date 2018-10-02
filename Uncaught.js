@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-native';
 
-export default class Error extends React.Component {
+export default class Uncaught extends React.Component {
   render() {
     return (
       <Button

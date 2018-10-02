@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Text, View } from 'react-native';
 import Sentry from 'sentry-expo';
 
-export default class Hello extends React.Component {
+export default class Caught extends React.Component {
   state = {
     text: '',
   };
@@ -12,7 +12,7 @@ export default class Hello extends React.Component {
       <View>
         <Button
           onPress={this.handleOnPress}
-          title="Hello"
+          title="Caught"
           color="#00FF00"
           accessibilityLabel="Learn more about this green button"
         />
