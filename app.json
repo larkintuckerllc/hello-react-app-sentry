@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "hello-react-native-sentry",
+    "description": "This project is really great.",
+    "slug": "hello-react-native-sentry",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "larkin-tucker-llc",
+            "project": "hello-react-native-sentry",
+            "authToken": "aaa7b724eb29487a843d78f4417750863b467802631440178b34b1c5c1a4fb5a"
+          }
+        }
+      ]
+    }
+  }
+}
