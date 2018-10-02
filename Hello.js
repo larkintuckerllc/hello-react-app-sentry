@@ -13,8 +13,8 @@ export default class Hello extends React.Component {
         <Button
           onPress={this.handleOnPress}
           title="Hello"
-          color="#FFFFFF"
-          accessibilityLabel="Learn more about this red button"
+          color="#00FF00"
+          accessibilityLabel="Learn more about this green button"
         />
         <Text>{text}</Text>
       </View>
